@@ -1,0 +1,98 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="gradientA" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2196F3; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientB" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9800; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F44336; stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="gradientC" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0; stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#673AB7; stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="#F8F9FA" />
+
+  <!-- Central AI Brain Icon -->
+  <g transform="translate(400, 300) scale(1.2)">
+    <circle cx="0" cy="0" r="70" fill="url(#gradientC)" />
+    <circle cx="0" cy="0" r="50" fill="#FFFFFF" />
+
+    <!-- Neurons/Connections -->
+    <circle cx="-30" cy="-20" r="10" fill="#E0E0E0" />
+    <circle cx="30" cy="-20" r="10" fill="#E0E0E0" />
+    <circle cx="0" cy="30" r="10" fill="#E0E0E0" />
+
+    <line x1="-30" y1="-20" x2="0" y2="0" stroke="#BDBDBD" stroke-width="3" />
+    <line x1="30" y1="-20" x2="0" y2="0" stroke="#BDBDBD" stroke-width="3" />
+    <line x1="0" y1="30" x2="0" y2="0" stroke="#BDBDBD" stroke-width="3" />
+  </g>
+
+  <!-- Text Area - Label -->
+  <text x="50%" y="50" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="36" font-weight="bold" fill="#333333">
+    AI-Powered Niche
+  </text>
+  <text x="50%" y="95" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="36" font-weight="bold" fill="#333333">
+    Procedural Game Asset Texture Generator
+  </text>
+
+  <!-- Left Side - Fantasy Elements -->
+  <g transform="translate(150, 400) scale(0.8)">
+    <!-- Sword Icon -->
+    <path d="M 0 -50 L -10 -30 L 0 -10 L 10 -30 Z M -5 -30 L 5 -30 L 0 -50 Z" fill="#8BC34A" />
+    <rect x="-5" y="-10" width="10" height="40" fill="#8BC34A" />
+    <polygon points="-15,-30 15,-30 -20,-40 20,-40" fill="#FFC107" />
+    <polygon points="-8,-50 8,-50 0,-70" fill="#FFC107" />
+
+    <!-- Crystal Icon -->
+    <polygon points="0 -80 -20 -40 -10 0 10 0 20 -40" fill="#E91E63" />
+    <polygon points="0 -80 -15 -50 -5 10 5 10 15 -50" fill="#F06292" />
+  </g>
+  <text x="150" y="520" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="24" fill="#555555">Fantasy</text>
+
+  <!-- Right Side - Sci-Fi Elements -->
+  <g transform="translate(650, 400) scale(0.8)">
+    <!-- Gear Icon -->
+    <circle cx="0" cy="0" r="40" fill="#00BCD4" />
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF" />
+    <g stroke="#00BCD4" stroke-width="4" fill="none">
+      <path d="M 0 -40 V -20 M 0 20 V 40 M -40 0 H -20 M 20 0 H 40" />
+      <path d="M 0 -40 A 15 15 0 1 0 0 -10" />
+      <path d="M 0 40 A 15 15 0 1 0 0 10" />
+      <path d="M -40 0 A 15 15 0 1 0 -10 0" />
+      <path d="M 40 0 A 15 15 0 1 0 10 0" />
+    </g>
+
+    <!-- Circuit Icon -->
+    <rect x="-30" y="-30" width="60" height="60" rx="5" ry="5" fill="#607D8B" />
+    <circle cx="-20" cy="-20" r="5" fill="#B0BEC5" />
+    <circle cx="20" cy="-20" r="5" fill="#B0BEC5" />
+    <circle cx="-20" cy="20" r="5" fill="#B0BEC5" />
+    <circle cx="20" cy="20" r="5" fill="#B0BEC5" />
+    <line x1="-20" y1="-20" x2="20" y2="-20" stroke="#B0BEC5" stroke-width="3" />
+    <line x1="20" y1="-20" x2="20" y2="20" stroke="#B0BEC5" stroke-width="3" />
+    <line x1="20" y1="20" x2="-20" y2="20" stroke="#B0BEC5" stroke-width="3" />
+    <line x1="-20" y1="20" x2="-20" y2="-20" stroke="#B0BEC5" stroke-width="3" />
+    <line x1="0" y1="-30" x2="0" y2="30" stroke="#B0BEC5" stroke-width="3" />
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#B0BEC5" stroke-width="3" />
+  </g>
+  <text x="650" y="520" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="24" fill="#555555">Sci-Fi</text>
+
+  <!-- Generation/Processing Indicator -->
+  <g transform="translate(400, 500)">
+    <path d="M 0 0 L 30 0 L 15 25 Z" fill="#FFAB00" />
+    <circle cx="50" cy="0" r="10" fill="#FFD740" />
+    <circle cx="70" cy="0" r="10" fill="#FFEE58" />
+    <circle cx="90" cy="0" r="10" fill="#FFF59D" />
+    <animateMotion dur="2s" repeatCount="indefinite">
+      <mpath xlink:href="#motionPath" />
+    </animateMotion>
+  </g>
+  <path id="motionPath" d="M 0 0 L 120 0" fill="none" />
+  <text x="400" y="550" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="20" fill="#757575">Generating Textures...</text>
+
+</svg>
